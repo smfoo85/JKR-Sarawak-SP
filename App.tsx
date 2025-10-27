@@ -58,7 +58,7 @@ import type {
   ThrustFinancials,
 } from './types';
 
-const initialLogoSrc = 'dist/assets/jkr-logo.png';
+const initialLogoSrc = 'assets/jkr-logo.png';
 const CUSTOM_LOGO_STORAGE_KEY = 'custom-logo-src';
 
 export function App() {
