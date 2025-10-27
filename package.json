@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --add",
+    "deploy:clean": "gh-pages -d dist --remove"
   },
   "dependencies": {
     "chart.js": "^4.4.3",
