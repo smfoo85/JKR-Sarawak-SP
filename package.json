@@ -1,5 +1,5 @@
 {
-  "name": "jkr-sarawak-strategic-plan-dashboard",
+  "name": "jkr-sarawak-strategic-plan",
   "homepage": "https://smfoo85.github.io/JKR-Sarawak-SP/",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --add",
-    "deploy:clean": "gh-pages -d dist --remove"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "chart.js": "^4.4.3",
